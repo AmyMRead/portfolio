@@ -1,0 +1,36 @@
+h1 {
+  color: #558712;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #558712;
+}
+
+h3:hover {
+  color: #7D7B7B;
+}
+
+body {
+  background-color: #DFDEDE;
+}
+
+p {
+  color: #7D7B7B;
+}
+
+img {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #0092DD;
+}
+
+.future {
+  color: #558712;
+}
+
+.done {
+  color: #4C4949;
+}
+
+.done:hover {
+  background-color: #DE0093;
+}
