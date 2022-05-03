@@ -12,6 +12,11 @@ h1 {
 
 h3:hover {
   color: #7D7B7B;
+  font-size: 200%;
+}
+
+h3 {
+  transition: font-size 4s ease-in 1s;
 }
 
 body {
@@ -24,12 +29,20 @@ p {
 
 .social {
   color: black;
+
 }
 
 img {
   border-style: dashed;
   border-width: 5px;
   border-color: #0092DD;
+  transition: border 4s ease-in 1s;
+
+}
+
+img:hover {
+  border-color: #7D7B7B;
+
 }
 
 .box {
@@ -37,6 +50,7 @@ img {
   width: 150px;
   border: 10px solid #7DC623;
   background: #558712;
+
 }
 
 .container {
@@ -72,6 +86,11 @@ img {
 
 a:hover {
   text-decoration: none;
+}
+
+.favs p:nth-child(3n+1) {
+  background-color: #DE1C0B;
+  font-weight: bolder;
 }
 
 #about-me {
