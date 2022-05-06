@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <title>Amy Read's Project List</title>
+    <script src="https://kit.fontawesome.com/e66a493fa4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Amy Read's Web Projects</h1>
+      <nav>
+          <a href="index.html">Home</a> |
+          <a href="about-me.html">About Me</a>
+          <i class="fa-solid fa-address-card"></i> |
+          <a href="web-form.html">Kitty form</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Tell me about your cat</h2>
+      <form method="GET">
+        <label>Your name:
+          <input type="text" name="userName">
+        </label>
+
+        <label>Your cat's name:
+          <input type="text" name="catName">
+        </label>
+
+        <label>Your email:
+          <input type="email" name="userEmail">
+        </label>
+
+        <label>How many cats do you have?
+          <input type="number" name="kittyCount">
+        </label>
+
+        <fieldset class="checkbox">
+          <legend>What color fur does your cat/cats have?</legend>
+          <label>
+          <input type="checkbox" name="color" value="ginger">Ginger
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="color" value="gray">Gray
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="color" value="black">Black
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="color" value="white">White
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="species" value="calico">Calico
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="species" value="other">Other
+          <span class="checkmark"></span>
+          </label>
+        </fieldset>
+
+        <label>Tell me a bit about your cat(s):
+          <textarea name="kittyDescription" rows="6" cols="65"></textarea>
+        </label>
+
+        <fieldset>
+          <legend>Does your cat enjoy laying in your lap?</legend>
+          <label>
+            <input type="radio" name="lapstatus" value="yes">Always
+          </label>
+          <label>
+            <input type="radio" name="lapstatus" value="sometimes">Sometimes
+          </label>
+          <label>
+            <input type="radio" name="lapstatus" value="never">Never
+          </label>
+        </fieldset>
+
+        <label>What's your cat's favorite toy?
+          <select name="toy">
+            <option value="">Select one</option>
+            <option value="feather">Feather</option>
+            <option value="mouse">Mouse</option>
+            <option value="cardboard">Cardboard box</option>
+            <option value="laser">Laser pointer</option>
+            <option value="ball">Crinkly ball</option>
+          </select>
+        </label>
+
+          <input type="submit" value="Send it!">
+      </form>
+
+    </section>
+
+
+    <footer>
+      <p><i>Last updated in May 2022.</i></p>
+    </footer>
+
+  </body>
+</html>
